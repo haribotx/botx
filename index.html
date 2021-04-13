@@ -36,7 +36,14 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center">
-      <img src="assets/img/trans-botx-automations-1.png" alt="Botx Logo" style="width:300px;height:200px;"">
+      <div style="
+          overflow: hidden;
+          height: 110px;
+          position: relative;
+          width: 179px;
+      ">
+        <img src="assets/img/trans-botx-automations-1.png" alt="Botx Logo" style="width:300px;position: absolute;height:200px;top: -49px;left: -43px;">
+      </div>
 
       <h1>Botx Automations</h1>
       <h2>We're working hard to improve our website and we'll ready to launch after</h2>
@@ -136,13 +143,23 @@
                 <p>9048058428</p>
               </div>
 
-              <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=ernakulam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://yt2.org/fr/youtube-to-mp3-ALeKk00qEW0sxByTDSpzaRvl8WxdMAeMytQ1611842368056QMMlSYKLwAsWUsAfLipqwCA2ahUKEwiikKDe5L7uAhVFCuwKHUuFBoYQ8tMDegUAQCSAQCYAQCqAQdnd3Mtd2l6"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:400px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style></div></div>
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <!-- <iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=ernakulam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen style="border:0; width: 100%; height: 290px;">
+                  </iframe>
+                  <a href="https://yt2.org/fr/youtube-to-mp3-ALeKk00qEW0sxByTDSpzaRvl8WxdMAeMytQ1611842368056QMMlSYKLwAsWUsAfLipqwCA2ahUKEwiikKDe5L7uAhVFCuwKHUuFBoYQ8tMDegUAQCSAQCYAQCqAQdnd3Mtd2l6"></a>
+                  <br>
+                  <style>.mapouter{position:relative;text-align:right;height:300px;width:400px;}</style>
+                  <style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style> -->
+                  <iframe src="https://maps.google.com/maps?q=ernakulam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen=""></iframe>
+                </div>
+              </div>
             </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formspree.io/f/xzbkllqk" method="post" role="form" >
+            <form class="php-email-form" action="https://formspree.io/f/xzbkllqk" method="post" role="form" >
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
