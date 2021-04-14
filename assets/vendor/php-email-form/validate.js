@@ -124,6 +124,7 @@
   });
 
   function php_email_form_submit(this_form, action, data) {
+    console.log("here");
     $.ajax({
       type: "POST",
       url: action,
